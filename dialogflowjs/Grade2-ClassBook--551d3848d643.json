@@ -1,0 +1,12 @@
+ {
+  "type": "service_account",
+  "project_id": "grade2-classbook--uxtajw",
+  "private_key_id": "551d3848d64340ba4498018212a9fceb42b53197",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDdW2Hdgs0PGn6Z\nxW21wWuWIOqOPO17VJz5a3+QG+O0pwxTokr/SBUojATvDlaq91QkuveFq6WPSQ+F\nranqd9J0tQuD4iRItj/5oEARDpyTMUk/KklHGR7LDZfWxSZI2aXHnJYVtsyc7G31\nczFw2Ep7ca+LMLg/RMI/yo92Z3JoPa2IXUKOPH1E0H2ADEHN6yXqsvwjngkK4GN/\njSUGp9FVX/t/tuctMVM1NRXdE0pXEVIpdKZ/My++dAOgMVt44aBsVjpyAQUsI5o3\nyMLYxbr+yGuXSRkSLFuwavm6+p3DJlUw14gCNtM7xXbSDfZmD+8AAbaG1AF3CPHE\nieOyfTzzAgMBAAECggEAaIm8HbckrZHXITredZxbeWKhMzxt8TVEDvzoGQA62Pmd\nNjAqmAYMTAJYYCeW4ZX9jH0p4VxvS0x3QqwB12PwJcLMpeOaPCap7vNx3jxW0KLR\nkz2erq+b3cxVHY4s5vG2u57lOGsElcWIpobY3hCfmE3X1/XRxbtsu2CnwQTYwIYj\nUqbYR/sc1Ns7wLABTZ+akNK/hvSD1dec0ZCUOENXjGQmXioTp0vwJi1tDHgdxUZS\niRTrWn5e+IvRq8qAq5X6Z14xlGkFUJoXNaj2n2ODsnaFLHa1bT72evB4yAZyrk0G\nrEO5k9PviBI4lRVFQhMyJcm/s9XRDvqAzxnIM3wZ3QKBgQD36NTsmyjii3b2VrpH\nfP5h2/oiyCro9aR2LrlLJMRO0pWfBLGaRuBAsz3ktg7ZXL/5KvREde8M1ACs5a7j\nNUkOEqiUHrHye8AHugDbDWQNiryVMmfGZ0gHsylR3nrBOwB/8MS6Kv2wIpgzh5Q5\nJ5dDVbZWol3DyI6KCDb4WhkwtwKBgQDklLdrppBmFO7OlrBqRVZr6DM9hDoK+dC0\nhyEZKb2hAmCZNsIjoIf9Zw77gXy2PxjFAm004DKLLyUrWVVK27Dn5a9x7AMkD9Lc\nD+2+gncLsTXjMrhSuMBXkDM8r7RZZ8F6Vp0PR0hDJTSNfn6qhObRN4gJQiifzA0z\njSPCFxDhpQKBgHcL8MuaCr0XOc47gYJ4zHNTvj9bnfd2lj5GW6ZxBm/Pghf1mg+6\nv09yg2ND5ceNWYaekOQbOesQFy7vsNbcrLM8VIWkY9FMib9sG6MVQBmcqMiAhwLo\nb9d6unnc+1e1LJ1DkkTQBjjBtBLypUP49hNYopHhsGMm+QPhw/vo0DXrAoGAR5u7\nVnMo24IFShz1CWXNbCKjIstwr42Rb2zB1rM339/xyS3ZZfXdhGorzGjFXAaqSNW4\nxo7R5r6PQ2RKDxiB9DQFYYgRd9OpOB2ZWkxe5P/QJOv3yJpuT0AyfPmCY1vYxe2q\naGXpYneeXhFZtyvJb5OY/2WFeoIfRJ4brKszM60CgYEAtODvG6IwGejNP2QOwaiu\np5g12lfbEaNzdJf/ZYOhrMpN+zc3PFdfI3QcVFPtZ1RlbIlnsO1CXjjCxlMlc9Hs\nf0bli+M7KHlrjgL0O9ooryfr3stokqyKnLO1Oi2FTOJuOlzPj49r/g2e0IV427EM\nXWKd1eZMgB3e2yo+nmLBdko=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-hfsgsq@grade2-classbook--uxtajw.iam.gserviceaccount.com",
+  "client_id": "101025354907446390769",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-hfsgsq%40grade2-classbook--uxtajw.iam.gserviceaccount.com"
+}

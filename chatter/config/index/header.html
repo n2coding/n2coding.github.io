@@ -1,0 +1,40 @@
+<?php
+@ini_set('display_errors', 0);
+// Get the names and values for vars sent to this script
+if (isset($_GET))
+{
+	foreach($_GET as $name => $value) $$name = $value;
+};
+if ((!isset($L) || $L == "")) $L = "english";
+include("./../../../localization/".$L."/localized.chat.php");
+include("./../../../localization/".$L."/localized.admin.php");
+$textDirection = (isset($Align) && $Align == "right" ? "RTL" : "LTR");
+$previous = "javascript:history.go(-1)";
+if(isset($_SERVER['HTTP_REFERER'])) $previous = $_SERVER['HTTP_REFERER'];
+?>
+<html dir=<?php echo($textDirection) ?>>
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=<?php echo($Charset) ?>">
+<title><?php echo(A_CHAT_LOGS_22); ?></title>
+<style type="text/css">
+<!--
+body
+{ background-color: lightcyan;}
+table
+{ font-family: arial; font-size:9pt;}
+img
+{ vertical-align: top; }
+-->
+</style>
+</head>
+<body>
+<span style="font-weight:600; font-size:14pt; font-color:blue; font-family: helvetica, arial, geneva, sans-serif;">
+<div align="left"><span dir="LTR" style="font-weight: 600; color:#FFD700; font-size: 10pt;"><?php echo("<a href=\"".$previous."\" onMouseOver=\"window.status='".L_REG_10."'; return true;\" title='".L_REG_10."' alt='".L_REG_10."'>".L_REG_10."</a>"); ?></span></div>
+<hr>
+<center>
+<span style="font-weight:600; font-size:14pt; font-color:blue; font-family: helvetica, arial, geneva, sans-serif;">
+<?php echo(A_CHAT_LOGS_22); ?>
+<div align="right"><span dir="LTR" style="font-weight: 600; color:#FFD700; font-size: 7pt;">
+&copy; 2005-<?php echo(date('Y')); ?> - by <a href="mailto:ciprianmp@yahoo.com?subject=phpMychat%20Plus%20feedback" onMouseOver="window.status='<?php echo(sprintf(L_CLICKS,L_LINKS_6,L_AUTHOR)); ?>.'; return true;" title="<?php echo(sprintf(L_CLICKS,L_LINKS_6,L_AUTHOR)); ?>" target=_blank>Ciprian Murariu</a></span></div>
+<hr>
+</span>

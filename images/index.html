@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+  <title>The N2 Chatbot</title>
+<body>
+<style>
+ 
+  body{
+    padding: 0;
+margin: 0;  
+  background-image: url("images/bg.jpg");
+  background-color: #cccccc;
+
+  }
+</style>
+
+<p style="font-size:50px">Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+
+
+<b style="font-size: 30px; margin-top: auto;">The video lesson:</b>
+  <div style="overflow: hidden; margin-top: -100px; margin-left: -25px;"></div>
+  </div>
+ 
+
+   <br>
+  <video width="640" height="357px" style="float: left; margin-top: 90px; padding-right: 100px;" controls>
+    <source src="videos/hu.mp4" type="video/mp4">
+   
+    Your browser does not support the video tag.
+  </video>
+
+  <iframe allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/schoolaichatbot" scrolling="no" style="height: 520px; border: 1px none; width: 640px; margin-top: -75px; margin-left: -5px;  border-style: solid;" >
+
+  </iframe>
+<br></br>
+
+<b style="font-size: 30px;">Listen and say:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chatbot conversation:</b>
+<br>
+<br>
+<br>
+
+
+<audio controls>
+  <source src="track\final.mp3" type="audio/mp3">
+
+  Your browser does not support the audio tag.
+</audio>
+
+
+
+
+<script src="gettime.js"></script>
+
+<br>
+<br>
+<b style="font-size: 30px;">Classbook lecture/Homework:</b>
+<br>
+
+<br>
+
+<button onclick="window.location.href='images/lesson1.PNG'"  target="_blank" src="images/lesson1.PNG" style="height: 50px; font-size: large; width: 290px; left:20px; border-radius:50px ;">Classbook lesson 1 (PNG)</button>
+<button onclick="window.location.href='homework/index.html'"  target="_blank" src="images/lesson1.PNG" style="height: 50px; font-size: large; width: 290px; left:20px; border-radius:50px ;">Homework</button>
+</body>
+</head>
